@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Jornada 1",
+    "fecha_inicio": "2012-11-01T22:08:41+00:00",
+    "fecha_fin": "2012-11-01T22:08:41+00:00",
+    "elecciones": [],
+    "habilitado": false
+  },
+  {
+    "nombre": "Jornada 2",
+    "fecha_inicio": "2012-11-01T22:08:41+00:00",
+    "fecha_fin": "2012-11-01T22:08:41+00:00",
+    "elecciones": [],
+    "habilitado": false
+  },
+  {
+    "nombre": "Jornada 3",
+    "fecha_inicio": "2012-11-01T22:08:41+00:00",
+    "fecha_fin": "2012-11-01T22:08:41+00:00",
+    "elecciones": [],
+    "habilitado": false
+  },
+  {
+    "nombre": "Jornada 4",
+    "fecha_inicio": "2012-11-01T22:08:41+00:00",
+    "fecha_fin": "2012-11-01T22:08:41+00:00",
+    "elecciones": [],
+    "habilitado": false
+  },
+  {
+    "nombre": "Jornada 5",
+    "fecha_inicio": "2012-11-01T22:08:41+00:00",
+    "fecha_fin": "2012-11-01T22:08:41+00:00",
+    "elecciones": [],
+    "habilitado": true
+  }
+]

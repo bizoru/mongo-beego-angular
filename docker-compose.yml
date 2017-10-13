@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  angular:
+    container_name: "angular4"
+    build: ./angular4
+    volumes:
+      - "./angular4/code:/angular/code"
+    ports:
+      - "4200:4200"
+  beego:
+    container_name: "beego"
+    build: ./beego
+    volumes:
+      - "./beego/code:/go/src/api"
+    ports:
+      - "8081:8080"
+
+  mongodb:
+    image: mongo
+    container_name: "mongodb"
+    expose:
+      - "27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+
+  mongo-express:
+    container_name: "mongo-express"
+    image: mongo-express
+    restart: on-failure
+    ports:
+      - "8000:8081"
+    depends_on:
+      - mongodb
+    environment:
+      ME_CONFIG_MONGODB_SERVER: mongodb
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: admin
+      ME_CONFIG_MONGODB_ENABLE_ADMIN: "true"
+
+  swagger-editor:
+    image: swaggerapi/swagger-editor
+    container_name: "swagger-editor"
+    ports:
+      - "8088:8080"

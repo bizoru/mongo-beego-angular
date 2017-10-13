@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Steven",
+    "apellidos": "Sierra Forero",
+    "correo": "bizoru@gmail.com",
+    "dependencia": "Estudiantes"
+  },
+  {
+    "nombre": "Alejandro",
+    "apellidos": "Daza",
+    "correo": "apdaza@gmail.com",
+    "dependencia": "Professores"
+  },
+  {
+    "nombre": "Fausto",
+    "apellidos": "Puerto",
+    "correo": "fausto.puerto@gmail.com",
+    "dependencia": "Administrativos"
+  }
+]

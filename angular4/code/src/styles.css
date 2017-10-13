@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+.label-block {
+  display: block;
+}
+
+.espaciado {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.accept {
+  margin-top: 10px;
+}

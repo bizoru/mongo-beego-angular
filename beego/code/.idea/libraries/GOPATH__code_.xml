@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;code&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/api" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/gopkg.in" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/labix.org" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/github.com" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/bson" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/api" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/gopkg.in" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/labix.org" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/github.com" />
+      <root url="file://$USER_HOME$/Dropbox (Personal)/Labs/golang/src/bson" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
